@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Imágenes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      color: #333;
+    }
+
+    /* Mismo tamaño para todas las imágenes */
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin: 15px;
+      border-radius: 4px;
+    }
+
+    /* Flexbox para alinear cada fila */
+    .fila {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 0;
+    }
+
+    /* Colores de fondo para cada fila */
+    .fila-1 {
+      background-color: #FFcc00; /* Amarillo */
+    }
+
+    .fila-2 {
+      background-color: #55BCFE; /* Celeste */
+    }
+
+    .fila-3 {
+      background-color: #FF5566; /* Rojo / Rosado */
+    }
+
+    /* Pie de página */
+    footer {
+      background-color: #72EF80; /* Verde */
+      text-align: center;
+      padding: 12px;
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Proyecto Imágenes</h1>
+
+  <!-- Fila 1 -->
+  <div class="fila fila-1">
+    <img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" alt="Bart Simpson">
+    <img src="https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png" alt="Lisa Simpson">
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png" alt="Marge Simpson">
+  </div>
+
+  <!-- Fila 2 -->
+  <div class="fila fila-2">
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_200px.png" alt="Homer Simpson">
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Maggie_Simpson.png" alt="Maggie Simpson">
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Apu_Nahasapeemapetilon.png" alt="Apu">
+  </div>
+
+  <!-- Fila 3 -->
+  <div class="fila fila-3">
+    <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/KrUSTY.png" alt="Krusty">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c5/Milhouse_Van_Houten.png" alt="Milhouse">
+    <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Chief_Wiggum.png" alt="Gefe Wiggum">
+  </div>
+
+  <!-- Pie de página -->
+  <footer>
+    Imágenes sacadas de internet
+  </footer>
+
+</body>
+</html>
